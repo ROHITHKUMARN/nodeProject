@@ -1,0 +1,58 @@
+body {
+    background:url(../assets/internalPage.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1{
+    font-size: 45px;
+    font-family: "Palatino";
+    text-align: center;
+}
+
+form{
+  position: absolute;
+  width: 30%;
+  height: 60%;
+  text-align: center;
+  margin-left: 35%;
+  border-radius: 5px 5px 5px 5px;
+  background: rgba(0,0,0,.1);
+}
+
+label{
+  font-family: "Helvetica";
+  font-size: 18px;
+  color: black;
+  margin-left: -40px;
+  margin-top: 20px;
+}
+
+input[type=text] {
+  width: 70%;
+  padding: 12px 20px;
+  margin-top: 20px;
+  box-sizing: border-box;
+  box-shadow: 0.5px 0.5px;
+  font-size: 14px;
+  font-family: "Helvetica";
+  border-radius: 5px 5px 5px 5px;
+}
+
+button {
+  font-size: 15px;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+  color: #008CBA;
+  background-color: white;
+  padding: 5px 12px;
+  border: 1px solid #008CBA;
+}
+
+button:hover {
+  background-color: #008CBA; /* Blue */
+  color: white;
+  border: 1px solid white;
+}

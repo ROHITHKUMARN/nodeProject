@@ -1,0 +1,28 @@
+body {
+    background:url(../assets/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1{
+    font-size: 45px;
+    font-family: "Palatino";
+    text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 30px;
+  font-family: "Times New Roman";
+  padding-left: 200px;
+}
+
+li {
+  padding-top: 30px;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html ng-app="employeeApp">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title> Add Employee </title>
+    <link rel="stylesheet" type="text/css" href="../css/newemployee.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+    <script src="../js/index.js"></script> 
+  </head>
+  <body ng-controller="postController">
+      <h1> New Employee </h1>
+      <form ng-submit="insertData()" >
+        <label> First Name </label><br>
+        <input type="text" placeholder="First Name" ng-model="employee.firstname"/> <br>
+        <label> Last Name </label><br>
+        <input type="text" placeholder="Last Name" ng-model="employee.lastname" /> <br>
+        <label> Hire Date </label><br>
+        <input type="text" placeholder="Hire Date" ng-model="employee.hiredate" /> <br>
+        <label> Role </label><br>
+        <input type="text" placeholder="Role" ng-model="employee.role" /> <br>
+        <button> Add Employee </button> <br>
+      </form>
+  </body>
+</html>

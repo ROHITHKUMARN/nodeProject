@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html ng-app="employeeApp">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title> Employee List </title>
+	<link rel="stylesheet" type="text/css" href="../css/employeelist.css">   
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+	<script src="../js/index.js"></script> 
+</head>
+<body ng-controller="getController"	>
+    	<h4 align="center"> Employee List</h4>
+	    <table border="2" align="center">
+		    <tr >
+		        <th>First Name</th>
+		        <th>Last Name</th>
+		        <th>Hire Date</th>
+		        <th>Role</th>
+		        <th>Joke</th>
+		        <th>Quote</th>
+		    </tr>
+		    <tr ng-repeat="x in records">
+		        <td>{{x.firstName}}</td>
+		        <td>{{x.lastName}}</td>
+		        <td>{{x.hireDate}}</td>
+		        <td>{{x.role}}</td>
+		        <td>{{x.joke}}</td>
+		        <td>{{x.quote}}</td>
+		    </tr>
+	    </table>
+</body>
+</html>
